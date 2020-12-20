@@ -112,7 +112,7 @@ air_series = pd.read_csv(
 ).set_index("NUTS3")
 
 df_notes = pd.read_csv(
-    "https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/note/dpc-covid19-ita-note-it.csv"
+    "https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/note/dpc-covid19-ita-note.csv" #"https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/legacy/note/dpc-covid19-ita-note-it.csv"
 )
 df_notes["data"] = pd.to_datetime(df_notes["data"],)  # format='%d%b%Y:%H:%M:%S.%f')
 
