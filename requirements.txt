@@ -1,6 +1,6 @@
 geojson==2.5.0
 numpy==1.18.2
-scipy==1.4.1
+scipy==1.10.0
 pandas==1.0.3
 plotly==4.5.4
 streamlit==0.57.0
